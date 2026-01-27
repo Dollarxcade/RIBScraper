@@ -21,7 +21,7 @@ A Python-based automation tool designed to extract performance data from rib.gg 
 ## Installation
 
 1. **Download**: Save the project files to a local directory.
-2. **Run Setup**: Double-click `setup_scraper.bat`.
+2. **Run Setup**: Double-click `setup.bat`.
    - This script verifies your Python installation.
    - Installs the Playwright library and necessary dependencies.
    - Downloads the required Chromium browser engine.
@@ -29,7 +29,7 @@ A Python-based automation tool designed to extract performance data from rib.gg 
 
 ## Usage Instructions
 
-1. **Start the Program**: Run `run_scraper.bat`.
+1. **Start the Program**: Run `launch.bat`.
 2. **Input Match IDs**: When prompted in the terminal, enter the Match ID found at the end of the rib.gg URL.
    - Example: For `https://www.rib.gg/series/12345`, the ID is `12345`.
 3. **Session Processing**: You can input multiple Match IDs sequentially. The script will navigate to each page, extract data, and update the internal player totals.
