@@ -48,8 +48,8 @@ The application utilizes the Playwright framework to simulate a real user enviro
 ## File Structure
 
 - `ribscraper.py`: The core Python logic.
-- `setup_scraper.bat`: Environment and dependency installer.
-- `run_scraper.bat`: Execution shortcut for the scraper.
+- `setup.bat`: Environment and dependency installer.
+- `launch.bat`: Execution shortcut for the scraper.
 - `valorant_stats.csv`: The generated output file (created after the first run).
 - `browser_session/`: Local directory created to store browser state and cookies (created after the first run).
 
