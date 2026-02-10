@@ -3,7 +3,7 @@
 A Python-based automation tool designed to extract performance data from rib.gg match series. The script automates the collection of player statistics, including advanced metrics like multi-kills and clutches, and aggregates them into a structured CSV file.
 
 > [!WARNING]
-> This was built for the rib.gg website as of 2026-1-27. If it doesn't work then rib.gg most likely updated it.
+> This was built for the rib.gg website as of 2026-1-27. If it doesn't work then rib.gg most likely updated their website.
 
 ## Features
 
@@ -16,7 +16,7 @@ A Python-based automation tool designed to extract performance data from rib.gg 
 
 - **Windows OS**: The included setup scripts are designed for Windows environment (.bat).
 - **Python 3.10+**: (Handled by the setup script if missing).
-- **VS Code**: Recommended for script execution and data review.
+- **VS Code** (Optional) : Recommended for script execution and data review.
 
 ## Installation
 
@@ -58,4 +58,4 @@ The application utilizes the Playwright framework to simulate a real user enviro
 - **Network Dependency**: The script requires a stable internet connection to load the heavy JavaScript elements on the target website.
 - **Selector Stability**: If rib.gg updates their website layout or CSS class names, the scraper selectors may require adjustment.
 
-Last updated 2026-1-27
+Last updated 2026-2-10
